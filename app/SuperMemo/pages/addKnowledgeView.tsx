@@ -20,6 +20,10 @@ export default function HomeView() {
             { text: "Ceci est un texte" },
             { text: "Ceci est un deuxième texte" },
             { audioFile: require("../assets/win.mp3") },
+            { uri: uri },
+            { text: "Ceci est un texte" },
+            { text: "Ceci est un deuxième texte" },
+            { audioFile: require("../assets/win.mp3") },
           ]}
         />
 
