@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <View style={styles.container}>
-      {Platform.OS === "android" && (
+      {Platform.OS === "ios" && (
         <TouchableHighlight
           style={styles.back}
           onPress={() => navigation.goBack()}

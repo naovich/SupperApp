@@ -12,8 +12,8 @@ export default function HomeView() {
         <Link style={styles.link} href="SuperMemo/pages/addKnowledgeView">
           Ajouter des connaissances
         </Link>
-        <Link style={styles.link} href="SuperMemo/pages/TasksView">
-          Réviser
+        <Link style={styles.link} href="SuperMemo/pages/categorieView">
+          Categorie
         </Link>
 
         <StatusBar style="auto" />
